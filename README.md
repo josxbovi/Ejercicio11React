@@ -1,8 +1,11 @@
-# React + Vite
+## Web de noticias 
+Crear una aplicación web con react, que consuma la API provista por https://newsapi.org/ o https://newsdata.io/docs , la aplicacion debe tener la siguiente estructura:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Componentes:
+1. Título
+2. Formulario (este contiene el select)
+3. ListaNoticias
+4. Noticia 
 
-Currently, two official plugins are available:
+Desde el select superior, debe poder elegir las diferentes categorías (provistas por la api ver en la documentación) y cargar en cards las mismas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
